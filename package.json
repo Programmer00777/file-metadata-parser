@@ -1,12 +1,26 @@
 {
   "name": "file-metadata-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "File Metadata Parser API Microservice",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "keywords": ["file", "metadata", "parser", "api", "microservice"],
+  "author": {
+    "name": "Sergey Chernikov",
+    "email": "chernikov.dev404@gmailc.com",
+    "linkedIn": "https://www.linkedin.com/in/sergey-chernikov-161242230/"
+  },
+  "license": "MIT",
+  "repository": "github:Programmer00777/file-metadata-parser",
+  "bugs": {
+    "url": "https://github.com/Programmer00777/file-metadata-parser/issues",
+    "email": "chernikov.dev404@gmail.com"
+  }
 }
