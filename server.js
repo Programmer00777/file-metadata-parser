@@ -14,7 +14,7 @@ app.post('/api/file/analyse', upload.single('file'), (req, res) => {
    res.json({
        uploaderName: req.body.uploaderName,
        fieldName: req.file.fieldname,
-       filename: req.file.originalname,
+       fileName: req.file.originalname,
        type: req.file.mimetype,
        size: req.file.size,
        encoding: req.file.encoding
